@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.scene {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#scene1 {
+    background-image: url('images/scene1.jpg');
+}
+
+#scene2 {
+    background-image: url('images/scene2.jpg');
+}
+
+#scene3 {
+    background-image: url('images/scene3.jpg');
+}
+
+#scene4 {
+    background-image: url('images/scene4.jpg');
+}
+
+#scene5 {
+    background-image: url('images/scene5.jpg');
+}
